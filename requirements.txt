@@ -2,3 +2,4 @@ git+https://github.com/bigscience-workshop/petals
 Flask
 flask-sock
 gunicorn
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
